@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Verdana,  Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.cart p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-items{
+    margin: 20px;
+    border: 2px solid brown;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#add-cart{
+    border: none;
+    padding: 10px;
+    font-size: 10px;
+}
+
